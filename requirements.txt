@@ -9,3 +9,4 @@ seaborn~=0.13.2
 gunicorn
 plotly_express
 dash_bootstrap_components
+flask_caching
