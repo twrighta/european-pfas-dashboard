@@ -7,3 +7,5 @@ dash_mantine_components~=0.14.7
 plotly~=5.24.1
 seaborn~=0.13.2
 gunicorn
+plotly_express
+dash_bootstrap_components
