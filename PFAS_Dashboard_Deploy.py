@@ -56,7 +56,7 @@ cache = Cache(app.server, config={
     'CACHE_TYPE': 'simple'})  # simple in-memory cache
 
 # Loaded into Github
-github_path = 'https://raw.githubusercontent.com/twrighta/european-pfas-dashboard/main/processed_PFAs_2019_2024.parquet'
+github_path = 'https://raw.githubusercontent.com/twrighta/european-pfas-dashboard/main/processed_PFAs_2021_2024.parquet'  # Trying a reduced dataset size to try reduce memory usage..
 
 # Function to load data
 @cache.memoize(timeout=120)
